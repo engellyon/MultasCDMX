@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Multas CDMX</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+    </head>
+    <body>
+        <!--<h1 alingn=" center" >Multa CDMX</h1> -->
+        
+        <nav class="navbar navbar-inverse navbar-fixed-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="index.html">Multas CDMX</a>
+                </div>
+            </div>
+        </nav>
+        
+        <div class="jumbotron">
+            <div class="container" style="height:100px">
+                <h1 align="center">Multas CDMX</h1>
+                <p align="center">
+                    En este sitio podrás consultar toda la información referente a las 
+                    multas en la Ciudad de México.
+                </p>
+            </div>
+        </div>
+        
+        <div id="myCarousel" class="carousel slide" data-ride="carousel" style="height:320px">
+            <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+            </ol>
+            
+            <div class="carousel-inner" role="listbox">
+                <div class="item active">
+                    <img class="img-responsive center-block" src="img/multa.jpg" alt="First slide" style="width:500px;height:300px">
+                </div>
+                
+                <div class="item">
+                    <img class="img-responsive center-block" src="img/cdmx.jpg" alt="Second slide" style="width:500px;height:300px">
+                </div>
+                
+                <div class="item">
+                    <img class="img-responsive center-block" src="img/unam.png" alt="Third slide" style="width:500px;height:300px">
+                </div>>
+            </div>
+        </div>
+      
+        <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        
+        <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+        
+        <br>
+        
+        <!--
+        <div>            
+            <a href="consultas/Consultar_Multas.jsp">Consultar Multas</a>
+            <br>            
+        </div>
+        -->
+        
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h2>Consultar Multas</h2>
+                    <p>Consulta las multas.</p>
+                    <p><a class="btn btn-primary" href="consultas/Consultar_Multas.jsp" role="button"><b>Consultar &raquo;</b></a></p>
+                </div>
+        
+        <!--      
+        <div>            
+            <a href="consultas/Agente_proceso.jsp">Consultar los agentes</a>
+            <br>                       
+        </div>
+        -->
+        
+                <div class="col-md-4">
+                    <h2>Consultar Agentes</h2>
+                    <p>Consulta los agentes.</p>
+                    <p><a class="btn btn-primary" href="consultas/Agente_proceso.jsp" role="button"><b>Consultar &raquo;</b></a></p>
+                </div>
+        
+        <!--
+        <div>            
+            <a href="consultas/Multas_Levantadas.jsp">Multas levantadas por agentes</a>
+            <br>            
+        </div>
+        -->
+        
+                <div class="col-md-4">
+                    <h2>Multas por Agentes</h2>
+                    <p>Consulta las multas levantadas por los agentes.</p>
+                    <p><a class="btn btn-primary" href="consultas/Multas_Levantadas.jsp" role="button"><b>Consultar &raquo;</b></a></p>
+                </div>
+        
+        <!--
+        <div>            
+            <a href="consultas/Genero_proceso.jsp">Multas por genero</a>
+            <br>
+        </div>
+        -->
+        
+                <div class="col-md-4">
+                    <h2>Multas por Género</h2>
+                    <p>Consulta las multas por género.</p>
+                    <p><a class="btn btn-primary" href="consultas/Genero_proceso.jsp" role="button"><b>Consultar &raquo;</b></a></p>
+                </div>        
+        
+        <!--
+        <div>            
+            <a href="consultas/Edad_proceso.jsp">Multas por edad</a>
+            <br>
+        </div>
+        -->
+        
+                <div class="col-md-4">
+                    <h2>Multas por Edad</h2>
+                    <p>Consulta las multas por edad.</p>
+                    <p><a class="btn btn-primary" href="consultas/Edad_proceso.jsp" role="button"><b>Consultar &raquo;</b></a></p>
+                </div>        
+        
+        <!--
+        <div>            
+            <a href="consultas/Modelos_proceso.jsp">Multas agrupadas por modelo y tipo</a>
+            <br>
+        </div>
+        -->
+        
+                <div class="col-md-4">
+                    <h2>Multas por Modelo y Tipo</h2>
+                    <p>Consulta las multas agrupadas por modelo y tipo.</p>
+                    <p><a class="btn btn-primary" href="consultas/Modelos_proceso.jsp" role="button"><b>Consultar &raquo;</b></a></p>
+                </div>        
+        
+        <!--
+        <div>            
+            <a href="consultas/MultasHoras_proceso.jsp">Numero promedio de multas por hora</a>
+            <br>
+        </div>
+        -->
+        
+                <div class="col-md-4">
+                    <h2>Multas promedio por hora</h2>
+                    <p>Consulta el número promedio de multas por hora.</p>
+                    <p><a class="btn btn-primary" href="consultas/MultasHoras_proceso.jsp" role="button"><b>Consultar &raquo;</b></a></p>
+                </div>        
+        
+        <!--
+        <div>            
+            <a href="consultas/MultasMes_proceso.jsp">Multas por mes</a>
+            <br>
+        </div>
+        -->
+        
+                <div class="col-md-4">
+                    <h2>Multas por Mes</h2>
+                    <p>Consulta las multas por mes.</p>
+                    <p><a class="btn btn-primary" href="consultas/MultasMes_proceso.jsp" role="button"><b>Consultar &raquo;</b></a></p>
+                </div>
+        
+        <!--
+        <div>            
+            <a href="consultas/Taxistas_proceso.jsp">Multas por tipo de Licencia</a>
+            <br>
+        </div>
+        -->
+        
+                <div class="col-md-4">
+                    <h2>Multas por Licencia</h2>
+                    <p>Consulta las multas por tipo de licencia.</p>
+                    <p><a class="btn btn-primary" href="consultas/Taxistas_proceso.jsp" role="button"><b>Consultar &raquo;</b></a></p>
+                </div>        
+        
+        <!--
+        <div>            
+            <a href="consultas/Estado_proceso.jsp">Multas por Estado</a>
+            <br>
+        </div>
+        -->
+        
+                <div class="col-md-4">
+                    <h2>Multas por Estado</h2>
+                    <p>Consulta las multas por estado.</p>
+                    <p><a class="btn btn-primary" href="consultas/Estado_proceso.jsp" role="button"><b>Consultar &raquo;</b></a></p>
+                </div>        
+        
+        <!--
+        <div>            
+            <a href="movimientos/Pagar_Multa.jsp">Pagar multa</a>
+            <br>
+        </div>
+        -->
+
+                <div class="col-md-4">
+                    <h2>Pagar Multa</h2>
+                    <p>En esta sección puedes pagar tus multas.</p>
+                    <p><a class="btn btn-danger" href="movimientos/Pagar_Multa.jsp" role="button"><b>Pagar &raquo;</b></a></p>
+                </div>        
+        
+        <!--
+        <div>            
+            <a href="movimientos/Registrar_persona.jsp">Registrar Persona</a>
+            <br>
+        </div>
+        -->
+
+                <div class="col-md-4">
+                    <h2>Registrar Persona</h2>
+                    <p>En esta sección puedes registrar personas.</p>
+                    <p><a class="btn btn-success" href="movimientos/Registrar_persona.jsp" role="button"><b>Registrar &raquo;</b></a></p>
+                </div>
+        
+        <!--
+        <div>            
+            <a href="movimientos/Registrar_Conductor.jsp">Registrar Conductor</a>
+            <br>
+        </div>
+        -->
+
+                <div class="col-md-4">
+                    <h2>Registrar Conductor</h2>
+                    <p>En esta sección puedes registrar conductores.</p>
+                    <p><a class="btn btn-success" href="movimientos/Registrar_Conductor.jsp" role="button"><b>Registrar &raquo;</b></a></p>
+                </div>
+        
+        <!--
+        <div>            
+            <a href="movimientos/Registrar_Agente.jsp">Registrar Agente</a>
+            <br>
+        </div>
+        -->
+
+                <div class="col-md-4">
+                    <h2>Registrar Agente</h2>
+                    <p>En esta sección puedes registrar agentes.</p>
+                    <p><a class="btn btn-success" href="movimientos/Registrar_Agente.jsp" role="button"><b>Registrar &raquo;</b></a></p>
+                </div>
+        
+        <!--
+        <div>            
+            <a href="movimientos/Registrar_NConductor.jsp">Registrar Nuevo Conductor</a>
+            <br>
+        </div>
+        -->
+
+                <div class="col-md-4">
+                    <h2>Nuevo Conductor</h2>
+                    <p>En esta sección puedes registrar a un nuevo conductor.</p>
+                    <p><a class="btn btn-success" href="movimientos/Registrar_NConductor.jsp" role="button"><b>Registrar &raquo;</b></a></p>
+                </div>
+        
+        <!--
+        <div>            
+            <a href="movimientos/Registrar_Vehiculo.jsp">Registrar Vehiculo</a>
+            <br>
+        </div>
+        -->
+
+                <div class="col-md-4">
+                    <h2>Registrar Vehículo</h2>
+                    <p>En esta sección puedes registrar nuevos vehículos.</p>
+                    <p><a class="btn btn-success" href="movimientos/Registrar_Vehiculo.jsp" role="button"><b>Registrar &raquo;</b></a></p>
+                </div>
+        
+        <!--
+        <div>            
+            <a href="movimientos/Cambio_propietario.jsp">Cambio Propietario</a>
+            <br>
+        </div>
+        -->
+
+                <div class="col-md-4">
+                    <h2>Cambio Propietario</h2>
+                    <p>En esta sección puedes realizar cambios de propietario.</p>
+                    <p><a class="btn btn-warning" href="movimientos/Cambio_propietario.jsp" role="button"><b>Actualizar &raquo;</b></a></p>
+                </div>
+        
+        <!--
+        <div>            
+            <a href="movimientos/Registrar_tarjeta.jsp">Registro Tarjeta Circulacion</a>
+            <br>
+        </div>
+        -->
+        
+                <div class="col-md-4">
+                    <h2>Alta Tarjeta Circulación</h2>
+                    <p>En esta sección puedes registrar tu tarjeta de circulación.</p>
+                    <p><a class="btn btn-success" href="movimientos/Registrar_tarjeta.jsp" role="button"><b>Registrar &raquo;</b></a></p>
+                </div>        
+        
+        <!--
+        <div>            
+            <a href="movimientos/Actualiza_tarjeta.jsp">Actualiza Tarjeta Circulacion</a>
+            <br>
+        </div>
+        -->
+
+                <div class="col-md-4">
+                    <h2>Actualizar Tarjeta</h2>
+                    <p>Sección para actualizar la tarjeta de circulación.</p>
+                    <p><a class="btn btn-warning" href="movimientos/Actualiza_tarjeta.jsp" role="button"><b>Actualizar &raquo;</b></a></p>
+                </div>
+        
+        <!--
+        <div>            
+            <a href="movimientos/Genera_foto.jsp">Genera Fotomulta</a>
+            <br>
+        </div>
+        -->
+
+                <div class="col-md-4">
+                    <h2>Genera Fotomulta</h2>
+                    <p>En esta sección puedes generar la fotomulta.</p>
+                    <p><a class="btn btn-danger" href="movimientos/Genera_foto.jsp" role="button"><b>Generar &raquo;</b></a></p>
+                </div>
+        
+        <!--
+        <div>            
+            <a href="movimientos/Genera_multa.jsp">Genera Multa</a>
+            <br>
+        </div>
+        -->
+
+                <div class="col-md-4">
+                    <h2>Genera Multa</h2>
+                    <p>En esta sección puedes generar la multa.</p>
+                    <p><a class="btn btn-danger" href="movimientos/Genera_multa.jsp" role="button"><b>Generar &raquo;</b></a></p>
+                </div>
+        
+        <!--
+        <div>            
+            <a href="movimientos/Ver_multa_agente.jsp">Ver Multa Agente</a>
+            <br>
+        </div>
+        -->
+
+                <div class="col-md-4">
+                    <h2>Ver Multa Agente</h2>
+                    <p>En esta sección puedes visualizar las multas por agente.</p>
+                    <p><a class="btn btn-primary" href="movimientos/Ver_multa_agente.jsp" role="button"><b>Consultar &raquo;</b></a></p>
+                </div>
+        
+        <!--
+        <div>            
+            <a href="movimientos/Ver_Fotomulta.jsp">Ver Fotomulta</a>
+            <br>
+        </div>
+        -->
+        
+                <div class="col-md-4">
+                    <h2>Ver Fotomulta</h2>
+                    <p>En esta sección puedes consultar las fotomultas.</p>
+                    <p><a class="btn btn-primary" href="movimientos/Ver_Fotomulta.jsp" role="button"><b>Consultar &raquo;</b></a></p>
+                </div>
+            </div>
+            
+            <hr>
+        
+            <footer>
+                <p align="right">&copy; 2016 Facultad de Ciencias, UNAM</p>
+            </footer>
+        </div>
+        
+        <script src="js/jquery-3.1.1.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>            
+    </body>
+</html>

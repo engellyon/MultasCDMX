@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RptDataSource xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="MULTAS_CDMX">
+  <ConnectionProperties>
+    <Extension>SQL</Extension>
+    <ConnectString>Data Source=GABY-PC;Initial Catalog=MULTAS_CDMX</ConnectString>
+    <Prompt>Especifique un nombre de usuario y una contraseña para el origen de datos MULTAS_CDMX:</Prompt>
+  </ConnectionProperties>
+  <DataSourceID>9a3ee9d1-a473-4a91-a155-32af36d643cb</DataSourceID>
+</RptDataSource>
